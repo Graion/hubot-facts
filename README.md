@@ -1,8 +1,8 @@
-# Hubot Example
+# Hubot Fact
 
-An example script package for Hubot
+Hubot script that retrieves facts based on https://www.mashape.com/divad12/numbers-1#!documentation
 
-[![Build Status](https://travis-ci.org/hubot-scripts/hubot-example.png)](https://travis-ci.org/hubot-scripts/hubot-example)
+[![Build Status](https://travis-ci.org/aaccurso/hubot-facts.svg)](https://travis-ci.org/aaccurso/hubot-facts)
 
 ## Directory Structure
 

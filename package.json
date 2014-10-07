@@ -1,7 +1,7 @@
 {
   "name": "hubot-fact",
   "description": "An example script package for Hubot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "aaccurso <accurso.alan@gmail.com>",
   "license": "MIT",
 

@@ -37,7 +37,7 @@ module.exports = (robot) ->
 
     msg.http(hostname + path)
     .query(query)
-    .header('X-Mashape-Key', "#{process.env.HUBOT_MASHAPE_CLIENT_ID || 'rsaiucBvCWmshtvC6jjBvqndWLaYp1jrjxPjsnOtR7XDcmQoGs'}")
+    .header('X-Mashape-Key', "#{process.env.HUBOT_MASHAPE_CLIENT_ID}")
     .get() (err, res, body) ->
       data = JSON.parse(body)
       if data.found
